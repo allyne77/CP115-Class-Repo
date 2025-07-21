@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-4"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 12:50:27 PM"/>
+        <attribute name="created" value="dXNlcjtLTE1MQUI3LVBDMzA7MjAyNS0wNy0yMTsxMjozNjowNCBQTTsyNTA3"/>
+        <attribute name="edited" value="dXNlcjtLTE1MQUI3LVBDMzA7MjAyNS0wNy0yMTsxMjo1MDoyNyBQTTsyOzI2MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nPage" type="Real" array="False" size=""/>
+            <input variable="nPage"/>
+            <declare name="totalCost" type="Real" array="False" size=""/>
+            <assign variable="totalCost" expression="(nPage*0.20)+ 3"/>
+            <output expression="totalCost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
