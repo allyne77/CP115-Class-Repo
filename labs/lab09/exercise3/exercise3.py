@@ -5,5 +5,6 @@ is_student = input()
 
 # TODO your code here
 
+
 print(base_price)
 print(final_price)
