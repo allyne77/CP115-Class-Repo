@@ -1,6 +1,6 @@
-position = input("Enter position: ")
-overtime_hours = int(input("Enter overtime hours:"))
-is_weekend = input("Is it weekend (yes/no):")
+position = input()
+overtime_hours = int(input())
+is_weekend = input()
 hourly_rate = 0
 weekend_bonus = 5
 

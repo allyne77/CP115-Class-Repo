@@ -1,6 +1,7 @@
-age = int(input("Enter age: "))
-accident_count = int(input("Enter accident count: "))
+age = int(input())
+accident_count = int(input())
 discount_amount = 0
+base_premium = 0
 
 if age < 25:
     base_premium = 2400
